@@ -36,7 +36,7 @@ export const listings: Listing[] = [
     bedrooms: 3,
     bathrooms: 2,
     area: 135,
-    image: '/images/property-1.png',
+    image: '/MyHomeAgency/images/property-1.png',
     description:
       'A bright, spacious F4 on the 6th floor with a wide balcony overlooking the Mediterranean. Recently renovated, with a modern kitchen, double glazing and an elevator in the building. Walking distance to the seafront boulevard, cafés and shops.',
     features: ['Sea view', 'Balcony', 'Elevator', 'Double glazing', 'Parking spot'],
@@ -52,7 +52,7 @@ export const listings: Listing[] = [
     bedrooms: 5,
     bathrooms: 3,
     area: 320,
-    image: '/images/property-2.png',
+    image: '/MyHomeAgency/images/property-2.png',
     description:
       'A two-storey family villa on a 450 m² plot in a quiet residential area of Bir El Djir. Private garden with olive trees, swimming pool, garage for two cars and a large terrace for summer evenings.',
     features: ['Swimming pool', 'Garden', 'Garage', 'Terrace', 'Act + livret foncier'],
@@ -68,7 +68,7 @@ export const listings: Listing[] = [
     bedrooms: 1,
     bathrooms: 1,
     area: 38,
-    image: '/images/property-3.png',
+    image: '/MyHomeAgency/images/property-3.png',
     description:
       'A cozy, fully furnished studio in the heart of Oran, steps from the tramway and Place du 1er Novembre. Ideal for students or young professionals. Water and internet included.',
     features: ['Furnished', 'Near tramway', 'Internet included', 'Water heater'],
@@ -84,7 +84,7 @@ export const listings: Listing[] = [
     bedrooms: 2,
     bathrooms: 1,
     area: 90,
-    image: '/images/property-4.png',
+    image: '/MyHomeAgency/images/property-4.png',
     description:
       'Charming F3 in a renovated French-era building with high ceilings, tall windows and wrought-iron balconies. Fully renovated kitchen and bathroom. Close to schools, markets and the university.',
     features: ['High ceilings', 'Balcony', 'Renovated', 'Near schools'],
@@ -99,7 +99,7 @@ export const listings: Listing[] = [
     bedrooms: 2,
     bathrooms: 1,
     area: 85,
-    image: '/images/property-5.png',
+    image: '/MyHomeAgency/images/property-5.png',
     description:
       'Brand-new F3 in a secured residence with a guard, underground parking and green spaces. Open kitchen, bright living room and good finishing throughout. Close to the airport and highway.',
     features: ['Secured residence', 'Underground parking', 'New build', 'Elevator'],
@@ -114,7 +114,7 @@ export const listings: Listing[] = [
     bedrooms: 4,
     bathrooms: 2,
     area: 180,
-    image: '/images/property-6.png',
+    image: '/MyHomeAgency/images/property-6.png',
     description:
       'An elegant duplex in Canastel with a large private terrace overlooking the coast. Furnished, air-conditioned, and perfect for families or expatriates looking for calm near the sea.',
     features: ['Private terrace', 'Sea view', 'Air conditioning', 'Furnished', 'Parking'],

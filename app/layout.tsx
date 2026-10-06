@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   description:
     'Rent or buy apartments, villas and studios in Oran, Algeria with My Home Agency.',
-  icons: { icon: '/images/logo.webp' },
+  icons: { icon: '/MyHomeAgency/images/logo.webp' },
 }
 
 export const viewport: Viewport = {

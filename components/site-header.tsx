@@ -17,7 +17,7 @@ export function SiteHeader() {
         <Link href="/" className="flex items-center gap-2" aria-label="My Home Agency home">
           <span className="relative h-11 w-14 overflow-hidden">
             <Image
-              src="/images/logo.webp"
+              src="/MyHomeAgency/images/logo.webp"
               alt=""
               width={122}
               height={122}

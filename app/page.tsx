@@ -14,7 +14,7 @@ export default function HomePage() {
     <>
       <section className="relative isolate">
         <Image
-          src="/images/hero-oran.png"
+          src="/MyHomeAgency/images/hero-oran.png"
           alt="Oran seafront at golden hour"
           fill
           priority
