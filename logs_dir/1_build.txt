@@ -1,0 +1,178 @@
+﻿2026-10-06T14:17:07.3074333Z Current runner version: '2.337.0'
+2026-10-06T14:17:07.3101098Z ##[group]Runner Image Provisioner
+2026-10-06T14:17:07.3102037Z Hosted Compute Agent
+2026-10-06T14:17:07.3102631Z Version: 20260901.588
+2026-10-06T14:17:07.3103258Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+2026-10-06T14:17:07.3104103Z Build Date: 2026-09-01T19:56:44Z
+2026-10-06T14:17:07.3104812Z Worker ID: {1ed52725-71de-4b2e-9761-a7d2335b5955}
+2026-10-06T14:17:07.3105557Z Azure Region: eastus
+2026-10-06T14:17:07.3106126Z ##[endgroup]
+2026-10-06T14:17:07.3107615Z ##[group]Operating System
+2026-10-06T14:17:07.3108343Z Ubuntu
+2026-10-06T14:17:07.3108858Z 24.04.5
+2026-10-06T14:17:07.3109339Z LTS
+2026-10-06T14:17:07.3109904Z ##[endgroup]
+2026-10-06T14:17:07.3110454Z ##[group]Runner Image
+2026-10-06T14:17:07.3111416Z Image: ubuntu-24.04
+2026-10-06T14:17:07.3111989Z Version: 20260927.320.1
+2026-10-06T14:17:07.3113601Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-06T14:17:07.3115262Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+2026-10-06T14:17:07.3116290Z ##[endgroup]
+2026-10-06T14:17:07.3117441Z ##[group]GITHUB_TOKEN Permissions
+2026-10-06T14:17:07.3119770Z Contents: read
+2026-10-06T14:17:07.3120380Z Metadata: read
+2026-10-06T14:17:07.3121234Z Pages: write
+2026-10-06T14:17:07.3121864Z ##[endgroup]
+2026-10-06T14:17:07.3124195Z Secret source: Actions
+2026-10-06T14:17:07.3125217Z Cache mode: write
+2026-10-06T14:17:07.3126252Z Prepare workflow directory
+2026-10-06T14:17:07.3567688Z Prepare all required actions
+2026-10-06T14:17:07.3637313Z Getting action download info
+2026-10-06T14:17:07.5977781Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-10-06T14:17:07.7081950Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-10-06T14:17:07.8009268Z Download action repository 'pnpm/action-setup@v3' (SHA:a3252b78c470c02df07e9d59298aecedc3ccdd6d)
+2026-10-06T14:17:07.9748429Z Download action repository 'actions/upload-pages-artifact@v3' (SHA:56afc609e74202658d3ffba0e8f6dda462b719fa)
+2026-10-06T14:17:08.2082995Z Getting action download info
+2026-10-06T14:17:08.3021922Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-10-06T14:17:08.4356823Z Complete job name: build
+2026-10-06T14:17:08.5135744Z ##[group]Run actions/checkout@v4
+2026-10-06T14:17:08.5136633Z with:
+2026-10-06T14:17:08.5137109Z   repository: dreamerhafid-a11y/MyHomeAgency
+2026-10-06T14:17:08.5141007Z   token: ***
+2026-10-06T14:17:08.5141489Z   ssh-strict: true
+2026-10-06T14:17:08.5141925Z   ssh-user: git
+2026-10-06T14:17:08.5142368Z   persist-credentials: true
+2026-10-06T14:17:08.5142848Z   clean: true
+2026-10-06T14:17:08.5143285Z   sparse-checkout-cone-mode: true
+2026-10-06T14:17:08.5143811Z   fetch-depth: 1
+2026-10-06T14:17:08.5144234Z   fetch-tags: false
+2026-10-06T14:17:08.5144673Z   show-progress: true
+2026-10-06T14:17:08.5145135Z   lfs: false
+2026-10-06T14:17:08.5145530Z   submodules: false
+2026-10-06T14:17:08.5145973Z   set-safe-directory: true
+2026-10-06T14:17:08.5146467Z   allow-unsafe-pr-checkout: false
+2026-10-06T14:17:08.5147236Z ##[endgroup]
+2026-10-06T14:17:08.6186150Z Syncing repository: dreamerhafid-a11y/MyHomeAgency
+2026-10-06T14:17:08.6189410Z ##[group]Getting Git version info
+2026-10-06T14:17:08.6191158Z Working directory is '/home/runner/work/MyHomeAgency/MyHomeAgency'
+2026-10-06T14:17:08.6193193Z [command]/usr/bin/git version
+2026-10-06T14:17:08.6273412Z git version 2.55.0
+2026-10-06T14:17:08.6302406Z ##[endgroup]
+2026-10-06T14:17:08.6320170Z Temporarily overriding HOME='/home/runner/work/_temp/22f8fbef-e9ca-416e-a4bd-f96be3320e0f' before making global git config changes
+2026-10-06T14:17:08.6323239Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-06T14:17:08.6327113Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/MyHomeAgency/MyHomeAgency
+2026-10-06T14:17:08.6385059Z Deleting the contents of '/home/runner/work/MyHomeAgency/MyHomeAgency'
+2026-10-06T14:17:08.6389132Z ##[group]Initializing the repository
+2026-10-06T14:17:08.6393916Z [command]/usr/bin/git init /home/runner/work/MyHomeAgency/MyHomeAgency
+2026-10-06T14:17:08.6509487Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-06T14:17:08.6513780Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-06T14:17:08.6515315Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-06T14:17:08.6516506Z hint: call:
+2026-10-06T14:17:08.6517275Z hint:
+2026-10-06T14:17:08.6518325Z hint: 	git config --global init.defaultBranch <name>
+2026-10-06T14:17:08.6519341Z hint:
+2026-10-06T14:17:08.6520268Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-06T14:17:08.6522004Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-06T14:17:08.6523328Z hint:
+2026-10-06T14:17:08.6524047Z hint: 	git branch -m <name>
+2026-10-06T14:17:08.6524856Z hint:
+2026-10-06T14:17:08.6525854Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-06T14:17:08.6527836Z Initialized empty Git repository in /home/runner/work/MyHomeAgency/MyHomeAgency/.git/
+2026-10-06T14:17:08.6531327Z [command]/usr/bin/git remote add origin https://github.com/dreamerhafid-a11y/MyHomeAgency
+2026-10-06T14:17:08.6579194Z ##[endgroup]
+2026-10-06T14:17:08.6580486Z ##[group]Disabling automatic garbage collection
+2026-10-06T14:17:08.6583127Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-06T14:17:08.6617490Z ##[endgroup]
+2026-10-06T14:17:08.6618945Z ##[group]Setting up auth
+2026-10-06T14:17:08.6625214Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-06T14:17:08.6660797Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-06T14:17:08.7049441Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-06T14:17:08.7093492Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-06T14:17:08.7324111Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-06T14:17:08.7361206Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-06T14:17:08.7595647Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-06T14:17:08.7640988Z ##[endgroup]
+2026-10-06T14:17:08.7642339Z ##[group]Fetching the repository
+2026-10-06T14:17:08.7652074Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +f1d0b4fe21a3f15ce1013b1d59058947d80585e8:refs/remotes/origin/main
+2026-10-06T14:17:09.5175475Z From https://github.com/dreamerhafid-a11y/MyHomeAgency
+2026-10-06T14:17:09.5178047Z  * [new ref]         f1d0b4fe21a3f15ce1013b1d59058947d80585e8 -> origin/main
+2026-10-06T14:17:09.5192635Z ##[endgroup]
+2026-10-06T14:17:09.5194838Z ##[group]Determining the checkout info
+2026-10-06T14:17:09.5197237Z ##[endgroup]
+2026-10-06T14:17:09.5198555Z [command]/usr/bin/git sparse-checkout disable
+2026-10-06T14:17:09.5256503Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-06T14:17:09.5289875Z ##[group]Checking out the ref
+2026-10-06T14:17:09.5293309Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-10-06T14:17:09.5872980Z Switched to a new branch 'main'
+2026-10-06T14:17:09.5877318Z branch 'main' set up to track 'origin/main'.
+2026-10-06T14:17:09.5886095Z ##[endgroup]
+2026-10-06T14:17:09.5931530Z [command]/usr/bin/git log -1 --format=%H
+2026-10-06T14:17:09.5957807Z f1d0b4fe21a3f15ce1013b1d59058947d80585e8
+2026-10-06T14:17:09.6329457Z ##[group]Run actions/setup-node@v4
+2026-10-06T14:17:09.6330598Z with:
+2026-10-06T14:17:09.6331713Z   node-version: 20
+2026-10-06T14:17:09.6332607Z   always-auth: false
+2026-10-06T14:17:09.6333520Z   check-latest: false
+2026-10-06T14:17:09.6341992Z   token: ***
+2026-10-06T14:17:09.6342847Z ##[endgroup]
+2026-10-06T14:17:09.7798902Z Attempting to download 20...
+2026-10-06T14:17:09.7904704Z (node:2310) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-06T14:17:09.7906492Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-06T14:17:10.5874510Z Acquiring 20.20.2 - x64 from https://github.com/actions/node-versions/releases/download/20.20.2-23521894959/node-20.20.2-linux-x64.tar.gz
+2026-10-06T14:17:11.2309591Z Extracting ...
+2026-10-06T14:17:11.2441262Z [command]/usr/bin/tar xz --strip 1 --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/cb093f93-b535-4b05-91de-71e1505ccd3d -f /home/runner/work/_temp/3b5ba3ef-8344-4deb-8439-fe5befc860cd
+2026-10-06T14:17:12.2386037Z Adding to the cache ...
+2026-10-06T14:17:13.9338464Z ##[group]Environment details
+2026-10-06T14:17:14.1542369Z node: v20.20.2
+2026-10-06T14:17:14.1542936Z npm: 10.8.2
+2026-10-06T14:17:14.1543291Z yarn: 1.22.22
+2026-10-06T14:17:14.1543945Z ##[endgroup]
+2026-10-06T14:17:14.1743245Z ##[group]Run pnpm/action-setup@v3
+2026-10-06T14:17:14.1743562Z with:
+2026-10-06T14:17:14.1743780Z   version: 9
+2026-10-06T14:17:14.1743991Z   dest: ~/setup-pnpm
+2026-10-06T14:17:14.1744205Z   run_install: null
+2026-10-06T14:17:14.1744439Z   package_json_file: package.json
+2026-10-06T14:17:14.1744707Z   standalone: false
+2026-10-06T14:17:14.1744942Z ##[endgroup]
+2026-10-06T14:17:14.2655233Z ##[group]Running self-installer...
+2026-10-06T14:17:14.6739544Z (node:2358) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-06T14:17:14.6741372Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-06T14:17:14.8613094Z Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-10-06T14:17:14.8769273Z Packages: +1
+2026-10-06T14:17:14.8770291Z +
+2026-10-06T14:17:15.3350380Z Progress: resolved 1, reused 0, downloaded 1, added 1, done
+2026-10-06T14:17:15.4117400Z 
+2026-10-06T14:17:15.4118104Z dependencies:
+2026-10-06T14:17:15.4151759Z + pnpm 9.15.9 (12.9.1 is available)
+2026-10-06T14:17:15.4152139Z 
+2026-10-06T14:17:15.4152246Z Done in 972ms
+2026-10-06T14:17:15.4408505Z ##[endgroup]
+2026-10-06T14:17:15.4480828Z Installation Completed!
+2026-10-06T14:17:15.4545528Z ##[group]Run pnpm install
+2026-10-06T14:17:15.4545860Z [36;1mpnpm install[0m
+2026-10-06T14:17:15.4814360Z shell: /usr/bin/bash -e {0}
+2026-10-06T14:17:15.4814676Z env:
+2026-10-06T14:17:15.4814974Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-10-06T14:17:15.4815348Z ##[endgroup]
+2026-10-06T14:17:15.8792933Z  ERROR  packages field missing or empty
+2026-10-06T14:17:15.8802240Z For help, run: pnpm help install
+2026-10-06T14:17:15.8877054Z ##[error]Process completed with exit code 1.
+2026-10-06T14:17:15.8979798Z Post job cleanup.
+2026-10-06T14:17:15.9975616Z Pruning is unnecessary.
+2026-10-06T14:17:16.0231082Z Post job cleanup.
+2026-10-06T14:17:16.1188464Z [command]/usr/bin/git version
+2026-10-06T14:17:16.1243189Z git version 2.55.0
+2026-10-06T14:17:16.1282007Z Temporarily overriding HOME='/home/runner/work/_temp/fee15696-e404-4bc6-b6ed-325e61852e51' before making global git config changes
+2026-10-06T14:17:16.1284032Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-06T14:17:16.1288511Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/MyHomeAgency/MyHomeAgency
+2026-10-06T14:17:16.1334413Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-06T14:17:16.1375769Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-06T14:17:16.1645635Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-06T14:17:16.1676883Z http.https://github.com/.extraheader
+2026-10-06T14:17:16.1712868Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-06T14:17:16.1731421Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-06T14:17:16.2054225Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-06T14:17:16.2100581Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-06T14:17:16.2746703Z Cleaning up orphan processes
+2026-10-06T14:17:16.3090191Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4, pnpm/action-setup@v3. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

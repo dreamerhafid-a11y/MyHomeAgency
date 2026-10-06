@@ -1,0 +1,9 @@
+﻿2026-10-06T14:17:15.4545514Z ##[group]Run pnpm install
+2026-10-06T14:17:15.4545857Z [36;1mpnpm install[0m
+2026-10-06T14:17:15.4814346Z shell: /usr/bin/bash -e {0}
+2026-10-06T14:17:15.4814673Z env:
+2026-10-06T14:17:15.4814971Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-10-06T14:17:15.4815344Z ##[endgroup]
+2026-10-06T14:17:15.8792903Z  ERROR  packages field missing or empty
+2026-10-06T14:17:15.8802224Z For help, run: pnpm help install
+2026-10-06T14:17:15.8877040Z ##[error]Process completed with exit code 1.

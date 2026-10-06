@@ -1,0 +1,29 @@
+﻿2026-10-06T14:21:54.5160346Z ##[group]Run pnpm next build
+2026-10-06T14:21:54.5160787Z [36;1mpnpm next build[0m
+2026-10-06T14:21:54.5200483Z shell: /usr/bin/bash -e {0}
+2026-10-06T14:21:54.5200853Z env:
+2026-10-06T14:21:54.5201195Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-10-06T14:21:54.5201631Z ##[endgroup]
+2026-10-06T14:21:55.2181255Z ▲ Next.js 16.3.3 (Turbopack)
+2026-10-06T14:21:55.2354665Z ✓ Running next.config.mjs took 17ms
+2026-10-06T14:21:55.2357221Z ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-10-06T14:21:55.2422621Z Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-10-06T14:21:55.2423809Z This information is used to shape Next.js' roadmap and prioritize features.
+2026-10-06T14:21:55.2425150Z You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-10-06T14:21:55.2426321Z https://nextjs.org/telemetry
+2026-10-06T14:21:55.2426792Z 
+2026-10-06T14:21:55.2617995Z 
+2026-10-06T14:21:55.3347040Z   Creating an optimized production build ...
+2026-10-06T14:22:00.0090035Z ✓ Compiled successfully in 4.3s
+2026-10-06T14:22:00.0195417Z   Skipping validation of types
+2026-10-06T14:22:00.0285015Z   Finished TypeScript config validation in 11ms ...
+2026-10-06T14:22:00.0308563Z   Collecting page data using 3 workers ...
+2026-10-06T14:22:00.8488055Z   Generating static pages using 3 workers (0/10) ...
+2026-10-06T14:22:01.1856374Z   Generating static pages using 3 workers (2/10) 
+2026-10-06T14:22:01.1956098Z   Generating static pages using 3 workers (4/10) 
+2026-10-06T14:22:01.1956790Z   Generating static pages using 3 workers (7/10) 
+2026-10-06T14:22:01.2608527Z Error occurred prerendering page "/listings". Read more: https://nextjs.org/docs/messages/prerender-error
+2026-10-06T14:22:01.2610305Z Error: Route /listings with `dynamic = "error"` couldn't be rendered statically because it used `await searchParams`, `searchParams.then`, or similar. See more info here: https://nextjs.org/docs/app/building-your-application/rendering/static-and-dynamic#dynamic-rendering
+2026-10-06T14:22:01.2611603Z Export encountered an error on /listings/page: /listings, exiting the build.
+2026-10-06T14:22:01.2733092Z ⨯ Next.js build worker exited with code: 1 and signal: null
+2026-10-06T14:22:01.2911860Z ##[error]Process completed with exit code 1.
