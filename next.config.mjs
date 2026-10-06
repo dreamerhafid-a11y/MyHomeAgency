@@ -4,6 +4,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   output: 'export',
+  basePath: '/MyHomeAgency',
   images: {
     unoptimized: true,
   },
